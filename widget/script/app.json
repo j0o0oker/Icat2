@@ -1,0 +1,58 @@
+{
+    "name": "demo1_main",
+    "title": "上郡生活",
+    "bgColor":"#fff",
+    "slidBackEnabled": false,
+    "historyGestureEnabled": false,
+    "tabBar": {
+        "height":62,
+        "animated": false,
+        "scrollEnabled":false,
+        "index":2,
+        "selectedColor":"#438ab8", 
+        "fontSize": 11,
+        "textOffset":8,
+        "list": [
+            {
+                "text": "喵",
+                "iconPath": "widget://image/main/main.png",
+                "selectedIconPath": "widget://image/main/main.png"
+            }, {
+                "text": "喵",
+                "iconPath": "widget://image/main/work.png",
+                "selectedIconPath": "widget://image/main/work.png"
+            }, {
+                "text": "喵",
+                "iconPath": "widget://image/main/news.png",
+                "selectedIconPath": "widget://image/main/news.png"
+            }, {
+                "text": "喵",
+                "iconPath": "widget://image/main/mine.png",
+                "selectedIconPath": "widget://image/main/mine.png"
+            }
+        ],
+        "frames": [
+            {
+                "title": "喵",
+                "name": "tab_frm_main",
+                "url": "widget://html/recommend.html",
+                "historyGestureEnabled":false
+            }, {
+                "title": "喵",
+                "name": "tab_frm_work",
+                "url": "widget://html/pic.html",
+                "historyGestureEnabled":false
+            }, {
+                "title": "喵",
+                "name": "tab_frm_news",
+                "url": "widget://html/post.html",
+                "historyGestureEnabled":false
+            }, {
+                "title": "喵",
+                "name": "tab_frm_mine",
+                "url": "widget://html/mine.html",
+                "historyGestureEnabled":false
+            }
+        ]
+    }
+}
